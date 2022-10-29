@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E6F8F8"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Doctors Manually "
+       android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/docname"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Name"
+        android:inputType="text"
+
+        />
+
+
+    <EditText
+        android:id="@+id/docaddress"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Address"
+        android:inputType="text"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/docemail"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Email"
+        android:inputType="text"
+        />
+
+
+
+    <EditText
+        android:id="@+id/docphone"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Phone"
+        android:inputType="text"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/docdate"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/docbtnupdate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button"
+        android:text="Update"
+        android:backgroundTint="#61A6A2"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</LinearLayout>

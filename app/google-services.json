@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833248065309",
+    "project_id": "medi-admin",
+    "storage_bucket": "medi-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833248065309:android:d276053199ff17880bd3f4",
+        "android_client_info": {
+          "package_name": "com.hospital.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833248065309-1qvb91c2uhg6p7gonim7hf0pi0pk2pnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKAZTfq2zTvBB78MEPsc-x4lfHJTEjsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833248065309-1qvb91c2uhg6p7gonim7hf0pi0pk2pnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

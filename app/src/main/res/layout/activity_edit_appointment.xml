@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E6F8F8"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Doctors Details "
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/docNameEdit"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Email Address"
+        android:inputType="text"
+
+        />
+
+
+    <EditText
+        android:id="@+id/docNameEdit2"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Name"
+        android:inputType="text"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/docAuthEdit"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Date Entered"
+        android:inputType="text"
+        />
+
+
+
+    <EditText
+        android:id="@+id/docAuthEdit333"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's Address"
+        android:inputType="text"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/docAuthEdit33dd"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Doctor's PhoneNumber"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button"
+        android:text="Update"
+        android:backgroundTint="#61A6A2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-46dp"
+        android:layout_gravity="right"
+        android:background="@drawable/button"
+        android:text="delete"
+        android:backgroundTint="#61A6A2"
+        android:layout_marginRight="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        android:text="@string/delettbtn"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

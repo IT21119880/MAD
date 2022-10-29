@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHospital.AddHospitals"
+    android:orientation="vertical"
+    android:background="#E6F8F8">
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Hospitals Details"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/booknamedoctorname"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Hospital's Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/bookname3"
+        android:textColor="@color/black"
+        android:layout_width="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Enter  Hospital's Address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/textaddd"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/uibutton"
+        android:hint="Enter  Hospital's Email"
+        />
+
+    <EditText
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:id="@+id/bookname4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="@drawable/uibutton"
+        android:inputType="number"
+        android:hint="Enter  Hospital's Phone"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Select Date"
+            android:textSize="15dp"
+            android:textStyle="bold"
+
+            >
+
+        </TextView>
+
+        <ImageView
+
+            android:id="@+id/buttoncalender"
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:layout_alignLeft="@+id/date"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="16dp"
+
+
+            android:src="@drawable/timepicker"
+            app:icon="@android:drawable/ic_menu_my_calendar" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+
+        android:id="@+id/textcalender"
+        android:layout_width="350dp"
+        android:hint="Adding Date"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+
+
+        />
+
+
+
+
+
+
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/password"-->
+    <!--        android:layout_width="320dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="40dp"-->
+    <!--        android:layout_marginLeft="50dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/uibutton"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Enter Your Doctor's Name"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        -->
+    <!--        />-->
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/password"-->
+    <!--        android:layout_width="320dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="40dp"-->
+    <!--        android:layout_marginLeft="50dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:background="@drawable/uibutton"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Doctor Adding Date"-->
+    <!--        android:inputType="textPassword"-->
+    <!--        android:textColor="@color/black" />-->
+
+    <Button
+
+        android:id="@+id/btnbookappinment"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Add Hospital"
+        app:cornerRadius="10dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#61A6A2"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hospital.booking">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Medi-Admin"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppointmentBooking">
+        <activity
+            android:name=".DeleteHospital"
+            android:exported="false" />
+        <activity
+            android:name=".ViewHospital"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateHospital"
+            android:exported="false" />
+        <activity
+            android:name=".AddHospitals"
+            android:exported="false" />
+        <activity
+            android:name=".Reminder"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDoctorDelete"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDoctors"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity android:name=".crud.CreateAppoinment" />
+        <activity android:name=".crud.AppointmentList" />
+        <activity android:name=".crud.EditAppointment" />
+        <activity android:name=".HospitalsList" />
+        <activity android:name=".AdminDashboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
